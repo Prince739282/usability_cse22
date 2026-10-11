@@ -1,395 +1,488 @@
 <!DOCTYPE html>
-<html lang="en">
 
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Prince Kumar | Portfolio</title>
-
+    <meta name="description" content="Prince Kumar - Full Stack Developer portfolio featuring MERN stack projects, web development, and cybersecurity.">
+    <title>Prince Kumar | Full Stack Developer</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media.css">
 </head>
-
 <body>
 
-    <!-- Navigation -->
+```
+<!-- Navigation -->
+<header class="header">
     <nav class="navbar container">
-
         <a href="#home" class="logo">Prince<span>.</span></a>
 
-        <div class="nav-links">
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#education">Education</a>
-            <a href="#contact">Contact</a>
-        </div>
-
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
+</header>
 
+<main>
 
-    <!-- Home -->
-    <header class="hero container" id="home">
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <p class="intro">Hello, I'm</p>
 
-        <div class="hero-content">
+            <h1>Prince Kumar</h1>
 
-            <p class="intro">Hello, I'm Prince Kumar</p>
-
-            <h1>Full-Stack Developer & Computer Science Student</h1>
+            <h2>Full Stack Developer</h2>
 
             <p class="hero-description">
-                I build full-stack web applications using React.js,
-                Node.js, Express.js, and MongoDB. I also enjoy solving
-                DSA problems using Java and learning cybersecurity.
+                Computer Science undergraduate interested in building
+                practical web applications using the MERN stack.
+                I also have an interest in cybersecurity and problem-solving.
             </p>
 
             <div class="hero-buttons">
-
-                <a href="#projects" class="btn">
-                    View Projects
-                </a>
-
-                <a href="#contact" class="btn btn-outline">
-                    Contact Me
-                </a>
-
+                <a href="#projects" class="btn btn-primary">View My Projects</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
             </div>
 
-            <p class="hero-note">
-                B.Tech CSE | ABES Engineering College | AKTU
-            </p>
-
-        </div>
-
-    </header>
-
-
-    <!-- About -->
-    <section class="section container" id="about">
-
-        <h2>About Me</h2>
-
-        <p class="section-description">
-            I'm a Computer Science undergraduate at ABES Engineering
-            College, pursuing B.Tech in Computer Science and Engineering
-            under AKTU.
-        </p>
-
-        <p class="section-description">
-            I work with the MERN stack to develop full-stack web
-            applications, design REST APIs, and manage databases.
-            I have built projects involving project management,
-            video sharing, and hospital management.
-        </p>
-
-        <p class="section-description">
-            Apart from development, I practice Data Structures and
-            Algorithms using Java and have solved 300+ problems
-            on LeetCode. I'm also learning networking and
-            cybersecurity fundamentals.
-        </p>
-
-    </section>
-
-
-    <!-- Skills -->
-    <section class="section skills-section" id="skills">
-
-        <div class="container">
-
-            <h2>Technical Skills</h2>
-
-            <div class="skills-grid">
-
-                <div class="skill-group">
-                    <h3>Programming Languages</h3>
-                    <p>
-                        JavaScript, Java, Python, C++, C
-                    </p>
-                </div>
-
-                <div class="skill-group">
-                    <h3>Frontend Development</h3>
-                    <p>
-                        HTML5, CSS3, React.js, Next.js,
-                        Tailwind CSS
-                    </p>
-                </div>
-
-                <div class="skill-group">
-                    <h3>Backend Development</h3>
-                    <p>
-                        Node.js, Express.js, REST APIs,
-                        JSON
-                    </p>
-                </div>
-
-                <div class="skill-group">
-                    <h3>Databases</h3>
-                    <p>
-                        MongoDB, MySQL, Mongoose,
-                        Database Schema Design
-                    </p>
-                </div>
-
-                <div class="skill-group">
-                    <h3>Developer Tools</h3>
-                    <p>
-                        Git, GitHub, VS Code, Postman, npm
-                    </p>
-                </div>
-
-                <div class="skill-group">
-                    <h3>Networking & Cybersecurity</h3>
-                    <p>
-                        TCP/IP, DNS, Network Protocols,
-                        Firewalls, Network Security Fundamentals
-                    </p>
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- Projects -->
-    <section class="section container" id="projects">
-
-        <h2>My Projects</h2>
-
-        <p class="section-description">
-            Here are some of the full-stack projects I've worked on.
-        </p>
-
-        <div class="projects-grid">
-
-            <!-- Project 1 -->
-            <div class="project-card">
-
-                <h3>Project Management Web App</h3>
-
-                <p>
-                    Developed a full-stack project management
-                    application that supports project creation,
-                    task assignment, and progress tracking.
-                </p>
-
-                <p>
-                    Implemented REST APIs for task management,
-                    deadlines, and progress reporting.
-                </p>
-
-                <p class="tech-stack">
-                    React.js | Node.js | Express.js | MongoDB
-                </p>
-
-                <a href="https://github.com/Prince739282?tab=repositories"
+            <div class="hero-links">
+                <a href="https://github.com/Prince739282"
                    target="_blank"
-                   rel="noopener noreferrer">
-                    View GitHub Repositories →
-                </a>
-
-            </div>
-
-
-            <!-- Project 2 -->
-            <div class="project-card">
-
-                <h3>VidTube - Video Sharing Platform</h3>
-
-                <p>
-                    Built a video-sharing application with features
-                    for video uploads, playback, likes, comments,
-                    subscriptions, and playlists.
-                </p>
-
-                <p>
-                    Developed REST APIs and a responsive,
-                    component-based React frontend.
-                </p>
-
-                <p class="tech-stack">
-                    React.js | Node.js | Express.js | MongoDB
-                </p>
-
-                <a href="https://github.com/Prince739282?tab=repositories"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    View GitHub Repositories →
-                </a>
-
-            </div>
-
-
-            <!-- Project 3 -->
-            <div class="project-card">
-
-                <h3>Hospital Management System</h3>
-
-                <p>
-                    Developed a hospital management application
-                    for managing patient records, doctor schedules,
-                    appointments, and billing.
-                </p>
-
-                <p>
-                    Created backend APIs and database schemas
-                    to manage hospital information.
-                </p>
-
-                <p class="tech-stack">
-                    React.js | Node.js | Express.js | MongoDB
-                </p>
-
-                <a href="https://github.com/Prince739282?tab=repositories"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    View GitHub Repositories →
-                </a>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- Education -->
-    <section class="section journey-section" id="education">
-
-        <div class="container">
-
-            <h2>Education</h2>
-
-            <div class="journey-item">
-
-                <h3>B.Tech in Computer Science and Engineering</h3>
-
-                <p>ABES Engineering College</p>
-
-                <p>AKTU | September 2024 - Present</p>
-
-                <p>SGPA: 8.34</p>
-
-            </div>
-
-            <div class="journey-item">
-
-                <h3>Class 12th - CBSE</h3>
-
-                <p>Completed in 2023 | 76.6%</p>
-
-            </div>
-
-            <div class="journey-item">
-
-                <h3>Class 10th - ICSE</h3>
-
-                <p>Completed in 2021 | 74.5%</p>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- Achievements -->
-    <section class="section container" id="achievements">
-
-        <h2>Achievements & Certifications</h2>
-
-        <div class="journey-item">
-            <h3>Problem Solving</h3>
-            <p>300+ LeetCode problems solved using Java.</p>
-        </div>
-
-        <div class="journey-item">
-            <h3>Bharatiya Antariksh Hackathon 2026</h3>
-            <p>Participated in the ISRO hackathon powered by Hack2Skill.</p>
-        </div>
-
-        <div class="journey-item">
-            <h3>Java with DSA</h3>
-            <p>PW Skills - Physics Wallah.</p>
-        </div>
-
-        <div class="journey-item">
-            <h3>Complete Web Development Course</h3>
-            <p>Udemy | April 2024 - September 2026.</p>
-        </div>
-
-    </section>
-
-
-    <!-- Contact -->
-    <section class="section contact-section" id="contact">
-
-        <div class="container">
-
-            <h2>Contact Me</h2>
-
-            <p>
-                I'm interested in software development and
-                full-stack development opportunities.
-                Feel free to contact me.
-            </p>
-
-            <div class="contact-links">
-
-                <a href="mailto:prk988110@gmail.com">
-                    Email Me
-                </a>
-
-                <a href="tel:+917392828469">
-                    Call Me
-                </a>
+                   rel="noopener noreferrer">GitHub</a>
 
                 <a href="https://www.linkedin.com/in/prince-kumar-abb415309/"
                    target="_blank"
-                   rel="noopener noreferrer">
-                    LinkedIn
-                </a>
-
-                <a href="https://github.com/Prince739282"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    GitHub
-                </a>
-
+                   rel="noopener noreferrer">LinkedIn</a>
             </div>
-
-            <p class="contact-details">
-                Email: prk988110@gmail.com
-            </p>
-
-            <p class="contact-details">
-                Location: Chandauli, Uttar Pradesh, India
-            </p>
-
         </div>
-
     </section>
 
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
 
-    <!-- Footer -->
-    <footer>
+            <div class="about-content">
+                <p>
+                    I'm a Computer Science Engineering student at ABES
+                    Engineering College with an interest in full-stack
+                    web development and cybersecurity.
+                </p>
 
+                <p>
+                    I work with JavaScript, React.js, Node.js, Express.js,
+                    and MongoDB to build web applications and REST APIs.
+                    I enjoy understanding how applications work, solving
+                    programming problems, and learning new technologies.
+                </p>
+
+                <p>
+                    I have solved 300+ problems on LeetCode using Java
+                    and continue to improve my data structures and
+                    algorithms skills.
+                </p>
+            </div>
+
+            <div class="about-stats">
+                <div class="stat-card">
+                    <h3>300+</h3>
+                    <p>LeetCode Problems</p>
+                </div>
+
+                <div class="stat-card">
+                    <h3>MERN</h3>
+                    <p>Full Stack Development</p>
+                </div>
+
+                <div class="stat-card">
+                    <h3>Cybersecurity</h3>
+                    <p>Area of Interest</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-light">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+
+            <p class="section-description">
+                Technologies and concepts I use in development and problem-solving.
+            </p>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span>Java</span>
+                        <span>JavaScript</span>
+                        <span>Python</span>
+                        <span>C++</span>
+                        <span>C</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Frontend Development</h3>
+                    <div class="skill-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>React.js</span>
+                        <span>Next.js</span>
+                        <span>Tailwind CSS</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Backend Development</h3>
+                    <div class="skill-tags">
+                        <span>Node.js</span>
+                        <span>Express.js</span>
+                        <span>REST APIs</span>
+                        <span>API Integration</span>
+                        <span>JSON</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Databases</h3>
+                    <div class="skill-tags">
+                        <span>MongoDB</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Tools</h3>
+                    <div class="skill-tags">
+                        <span>Git</span>
+                        <span>GitHub</span>
+                        <span>VS Code</span>
+                        <span>Postman</span>
+                        <span>npm</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Networking & Security</h3>
+                    <div class="skill-tags">
+                        <span>TCP/IP</span>
+                        <span>DNS</span>
+                        <span>Network Protocols</span>
+                        <span>Firewalls</span>
+                        <span>Web Security Fundamentals</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Core Concepts</h3>
+                    <div class="skill-tags">
+                        <span>Data Structures</span>
+                        <span>Algorithms</span>
+                        <span>OOP</span>
+                        <span>Problem Solving</span>
+                        <span>Debugging</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+
+            <p class="section-description">
+                Selected projects focused on practical problem-solving,
+                full-stack development, and application security.
+            </p>
+
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-top">
+                        <span class="project-number">01</span>
+                        <span class="project-category">Full Stack</span>
+                    </div>
+
+                    <h3>MandiMantra</h3>
+
+                    <p class="project-subtitle">
+                        Agricultural Market Price Intelligence Platform
+                    </p>
+
+                    <p class="project-description">
+                        A web application designed to help users explore
+                        agricultural commodity prices across different
+                        markets using government-provided market data.
+                    </p>
+
+                    <ul class="project-features">
+                        <li>Integrates a government mandi-price API.</li>
+                        <li>Helps users explore prices by crop and market.</li>
+                        <li>Provides a foundation for price comparison and trend analysis.</li>
+                    </ul>
+
+                    <div class="project-tech">
+                        <span>React.js</span>
+                        <span>Node.js</span>
+                        <span>Express.js</span>
+                        <span>REST API</span>
+                    </div>
+
+                    <a class="project-link"
+                       href="https://github.com/Prince739282?tab=repositories"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        View Repositories <span>&rarr;</span>
+                    </a>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-top">
+                        <span class="project-number">02</span>
+                        <span class="project-category">Cybersecurity</span>
+                    </div>
+
+                    <h3>Broken Access Control Security Lab</h3>
+
+                    <p class="project-subtitle">
+                        Web Application Security
+                    </p>
+
+                    <p class="project-description">
+                        A security-focused project for understanding broken
+                        access control vulnerabilities and exploring
+                        secure authorization practices in web applications.
+                    </p>
+
+                    <ul class="project-features">
+                        <li>Explores authentication and authorization.</li>
+                        <li>Studies access-control weaknesses in a controlled environment.</li>
+                        <li>Focuses on backend authorization and resource protection.</li>
+                    </ul>
+
+                    <div class="project-tech">
+                        <span>JavaScript</span>
+                        <span>Node.js</span>
+                        <span>Express.js</span>
+                        <span>Web Security</span>
+                    </div>
+
+                    <a class="project-link"
+                       href="https://github.com/Prince739282?tab=repositories"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        View Repositories <span>&rarr;</span>
+                    </a>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <div class="project-top">
+                        <span class="project-number">03</span>
+                        <span class="project-category">MERN Stack</span>
+                    </div>
+
+                    <h3>Project Management Web App</h3>
+
+                    <p class="project-subtitle">
+                        Project and Task Management
+                    </p>
+
+                    <p class="project-description">
+                        A web application for organizing projects, assigning
+                        tasks, tracking progress, and managing deadlines
+                        through a centralized interface.
+                    </p>
+
+                    <ul class="project-features">
+                        <li>Create and manage projects and tasks.</li>
+                        <li>Track task progress and deadlines.</li>
+                        <li>Uses backend APIs to manage application data.</li>
+                    </ul>
+
+                    <div class="project-tech">
+                        <span>React.js</span>
+                        <span>Node.js</span>
+                        <span>Express.js</span>
+                        <span>MongoDB</span>
+                    </div>
+
+                    <a class="project-link"
+                       href="https://github.com/Prince739282?tab=repositories"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        View Repositories <span>&rarr;</span>
+                    </a>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section section-light">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+
+            <div class="education-list">
+
+                <div class="education-card">
+                    <div class="education-year">2024 – Present</div>
+
+                    <div class="education-details">
+                        <h3>Bachelor of Technology — Computer Science</h3>
+                        <p>ABES Engineering College</p>
+                        <p>Dr. A.P.J. Abdul Kalam Technical University</p>
+                        <span class="education-result">SGPA: 8.34</span>
+                    </div>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-year">2023</div>
+
+                    <div class="education-details">
+                        <h3>Class XII — CBSE</h3>
+                        <p>Senior Secondary Education</p>
+                        <span class="education-result">76.6%</span>
+                    </div>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-year">2021</div>
+
+                    <div class="education-details">
+                        <h3>Class X — ICSE</h3>
+                        <p>Secondary Education</p>
+                        <span class="education-result">74.5%</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section">
+        <div class="container">
+            <h2 class="section-title">Achievements & Learning</h2>
+
+            <div class="achievements-grid">
+
+                <div class="achievement-card">
+                    <h3>300+ LeetCode Problems</h3>
+                    <p>
+                        Practiced data structures and algorithms using Java
+                        to strengthen problem-solving skills.
+                    </p>
+                </div>
+
+                <div class="achievement-card">
+                    <h3>Bharatiya Antariksh Hackathon 2026</h3>
+                    <p>
+                        Participated in the hackathon organized by ISRO,
+                        powered by Hack2Skill.
+                    </p>
+                </div>
+
+                <div class="achievement-card">
+                    <h3>Java with DSA</h3>
+                    <p>
+                        Completed the Decode Java with DSA course from PW Skills.
+                    </p>
+                </div>
+
+                <div class="achievement-card">
+                    <h3>Web Development</h3>
+                    <p>
+                        Studied full-stack web development through an
+                        online course and practical project work.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+
+            <p class="section-description">
+                I'm interested in development opportunities, collaborative
+                projects, and learning from real-world challenges.
+            </p>
+
+            <div class="contact-card">
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <a href="mailto:prk988110@gmail.com">
+                        prk988110@gmail.com
+                    </a>
+                </div>
+
+                <div class="contact-item">
+                    <h3>Phone</h3>
+                    <a href="tel:+917392828469">
+                        +91 73928 28469
+                    </a>
+                </div>
+
+                <div class="contact-item">
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/Prince739282"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        github.com/Prince739282
+                    </a>
+                </div>
+
+                <div class="contact-item">
+                    <h3>LinkedIn</h3>
+                    <a href="https://www.linkedin.com/in/prince-kumar-abb415309/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        View LinkedIn Profile
+                    </a>
+                </div>
+            </div>
+
+            <a href="mailto:prk988110@gmail.com"
+               class="btn btn-primary contact-button">
+                Send Me an Email
+            </a>
+        </div>
+    </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
         <p>
-            © <span id="year">2026</span> Prince Kumar
+            &copy; <span id="current-year"></span> Prince Kumar.
+            Built with HTML and CSS.
         </p>
+    </div>
+</footer>
 
-    </footer>
-
-
-    <script>
-        document.getElementById("year").textContent =
-            new Date().getFullYear();
-    </script>
+<script>
+    document.getElementById("current-year").textContent =
+        new Date().getFullYear();
+</script>
+```
 
 </body>
-
 </html>
